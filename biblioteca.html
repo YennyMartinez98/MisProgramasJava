@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>biblioteca</title>
+  <link rel="stylesheet" href="biblioteca.css">
+</head>
+<body>
+  <h1>Hola a mi biblioteca</h1>
+  <p>Bienvenidos</p>
+
+  <form action="#" method="post">
+    <label for="titulo">Título del libro:</label><br>
+    <input type="text" id="titulo" name="titulo" placeholder="Blancanieves"><br><br>
+
+    <label for="autor">Autor:</label><br>
+    <input type="text" id="autor" name="autor" placeholder="Yenny"><br><br>
+
+    <label for="anio">Año de publicación:</label><br>
+    <input type="number" id="anio" name="anio" placeholder="2025"><br><br>
+
+    <label for="categoria">Categoría:</label><br>
+    <select id="categoria" name="categoria">
+      <option value="novela">Novela</option>
+      <option value="poesia">Poesía</option>
+      <option value="ciencia">Ciencia</option>
+      <option value="historia">Historia</option>
+    </select><br><br>
+
+    <!-- botón corregido -->
+    <button type="button" onclick="MostrarMensajes()">VER LIBROS</button>
+  </form>
+
+  <!-- aquí van tus scripts -->
+  <script src="Biblioteca.js"></script>
+</body>
+</html>
